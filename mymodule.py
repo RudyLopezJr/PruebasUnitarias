@@ -4,7 +4,7 @@ def sum(a, b):
         #en dado caso que no reciba un entero devuelve error
         if not isinstance(n, int) and not isinstance(n, float):
             raise TypeError
-    return a + b
+    return a - b
 
 #Función para obtener lista de números primos
 def get_prime_numbers(max_number):
